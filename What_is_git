@@ -4,4 +4,36 @@ Git is used to tracking changes in the source code, enabling multiple developers
 History of git
 Source Code Control System(SCCS) - Stored original version and sets of changes | 1972: free with Unix
 
+GIT Installation in Debian/Ubuntu
+
+For the latest stable version for your release of Debian/Ubuntu
+# apt-get install git
+For Ubuntu, this PPA provides the latest stable upstream Git version
+# add-apt-repository ppa:git-core/ppa # apt update; apt install git
+ 
+Configuration 
+System - /etc/gitconfig
+	  Program Files\Git\etc\gitconfig
+User :   ~/gitconfig
+$HOME\.gitconfig
+
+Project :- my_project/.git/config
+
+Basic command which always get config
+System :- git config --system
+User :- git config -- global
+Project :- git config
+
+git config --global user.name “Mohammad Imteyaz”
+git config --global user.email “email-id”
+git config --list = it will list all the configuration
+
+Terminal - 
+git config --global user.name
+<Mohammad Imteyaz>
+imteyaz@imteyaz-HP-630-Notebook-PC:~$ git config --global user.email
+<imteyazm745@gmail.com>
+
+git config --global core.editor “atom -wait” 	use to select the editor  
+git config --global color.ui true      		gives the color
 

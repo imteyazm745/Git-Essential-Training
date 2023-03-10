@@ -9,3 +9,10 @@ git config --global user.name "your-username"
 
 Finally, you can check that your identity has been set correctly by running the following command:
 git config --global --list
+
+CREATE A GIT REPO
+Three GIT commands are : 
+Git init : We can create brand new repositories (repos) on our computer.
+git clone : Copy existing repos from womewhere else to our local computer.
+git status : Check the status of a repo.
+

@@ -48,3 +48,20 @@ We won't be dealing with the project on the other computer,so this line can be i
 
 3. nothing to commit, working directory clean – this is saying that there are no pending changes.
 
+The tools we'll be using to review a repository's history are git log and git show.
+
+git log : Displays informatiln about the existing commits.
+git show : Displays information about the given commit.
+
+Navigating The Log
+If you're not used to a pager on the command line, navigating in Less can be a bit odd. Here are some helpful keys:
+
+to scroll down, press
+j or ↓ to move down one line at a time
+d to move by half the page screen
+f to move by a whole page screen
+to scroll up, press
+k or ↑ to move up one line at a time
+u to move by half the page screen
+b to move by a whole page screen
+press q to quit out of the log (returns to the regular command prompt)

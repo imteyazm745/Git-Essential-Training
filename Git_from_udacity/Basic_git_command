@@ -1,6 +1,6 @@
 git --version : this command is use to check git is already installed or not it will give the git version.
 git config user.email : This command will check which account is currently logged in to Git.
-git config --global --list : This will show a list of all the identities configured on your system, including username and email address associated with each identity.
+git config --global --list : This will show a list of all the identities configured on your system, including username and email address.
 git config --global --unset user.email : If someone else identity is listed in the output, you can remove it by running this comman.
 
 Once you have removed your brother's identity, you can add your own identity by running the following commands:
@@ -15,4 +15,36 @@ Three GIT commands are :
 Git init : We can create brand new repositories (repos) on our computer.
 git clone : Copy existing repos from womewhere else to our local computer.
 git status : Check the status of a repo.
+
+$ git init
+Running this command creates a hidden .git directory. This .git directory is the brain/storage center for the repository. 
+It holds all of the configuration files and directories and is where all of the commits are stored.
+
+$ git clone : $ git clone <path-to-repository-to-clone>
+This command :     
+    takes the path to an existing repository
+    by default will create a directory with the same name as the repository that's being cloned
+    can be given a second argument that will be used as the name of the directory
+    will create the new repository inside of the current working directory
+
+$ git status : 
+The git status is our key to the mind of Git. It will tell us what Git is thinking and the state of our repository as Git sees it. 
+
+Git Status Explanation
+As you can see in the GIF above, running git status in the course-git-blog-project project produces the following output:
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+The output tells us two things:
+
+1. On branch master – this tells us that Git is on the master branch. You've got a description of a branch on your terms sheet 
+so this is the "master" branch (which is the default branch). We'll be looking more at branches in lesson 5
+
+2. Your branch is up-to-date with 'origin/master'. – Because git clone was used to copy this repository from another computer, 
+this is telling us if our project is in sync with the one we copied from. 
+We won't be dealing with the project on the other computer,so this line can be ignored.
+
+3. nothing to commit, working directory clean – this is saying that there are no pending changes.
 

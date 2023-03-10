@@ -1,0 +1,11 @@
+git --version : this command is use to check git is already installed or not it will give the git version.
+git config user.email : This command will check which account is currently logged in to Git.
+git config --global --list : This will show a list of all the identities configured on your system, including username and email address associated with each identity.
+git config --global --unset user.email : If someone else identity is listed in the output, you can remove it by running this comman.
+
+Once you have removed your brother's identity, you can add your own identity by running the following commands:
+git config --global user.email "your-email-address"
+git config --global user.name "your-username"
+
+Finally, you can check that your identity has been set correctly by running the following command:
+git config --global --list

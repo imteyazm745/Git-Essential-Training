@@ -65,3 +65,11 @@ k or ↑ to move up one line at a time
 u to move by half the page screen
 b to move by a whole page screen
 press q to quit out of the log (returns to the regular command prompt)
+
+
+$ git log --oneline : the --oneline flag is used to alter how git log displays information:
+This command:
+    lists one commit per line
+    shows the first 7 characters of the commit's SHA
+    shows the commit's message
+ 

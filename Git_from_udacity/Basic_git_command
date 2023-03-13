@@ -85,3 +85,7 @@ Viewing Changes
 We know that git log will show us the commits in a repository, and if we add the --stat flag, 
 we can see what files were modified and how many lines of code were added or removed.
 
+git log -p
+The git log command has a flag that can be used to display the actual changes made to a file. 
+The flag is --patch which can be shortened to just -p:
+

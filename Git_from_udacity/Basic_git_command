@@ -81,5 +81,7 @@ This command:
     displays the number of lines that have been added/removed
     displays a summary line with the total number of modified files and lines that have been added/removed
 
-
+Viewing Changes
+We know that git log will show us the commits in a repository, and if we add the --stat flag, 
+we can see what files were modified and how many lines of code were added or removed.
 

@@ -143,3 +143,10 @@ However, git show can be combined with most of the other flags we've looked at:
 --stat - to show the how many files were changed and the number of lines that were added/removed
 -p or --patch - this the default, but if --stat is used, the patch won't display, so pass -p to add it again
 -w - to ignore changes to whitespace
+
+Add commits to a repo:
+git add: add files from the working directory to the staging index
+git commit: Takes files from the staging index and saves them in the index
+git diff: displays the difference between two versions of file, its output is exactly like the output of the git log -p command.
+
+

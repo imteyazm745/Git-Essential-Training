@@ -163,3 +163,15 @@ Changes to be committed:
 	new file:   index.html
 	new file:   js/app.js
 
+Let's do a quick review of what's going on and what we're about to do:
+	we have some new files that we want Git to start tracking
+	for Git to track a file, it needs to be committed to the repository
+	for a file to be committed, it needs to be in the Staging Index
+	the git add command is used to move files from the Working Directory to the Staging Index
+	there are currently three, untracked files in the Working Directory
+	index.html
+	app.css in the css directory
+	app.js in the js directory
+	So the first step to getting any files committed to the repository is to add them from the Working Directory to the Staging Index. 
+	We will be using the git add command to move all three of these files to the Staging Index.
+

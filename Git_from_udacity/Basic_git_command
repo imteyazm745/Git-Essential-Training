@@ -149,4 +149,17 @@ git add: add files from the working directory to the staging index
 git commit: Takes files from the staging index and saves them in the index
 git diff: displays the difference between two versions of file, its output is exactly like the output of the git log -p command.
 
+irfan@irfan-Inspiron-5558:~/udacity_git_course/new-git-project$ ls
+course-git-blog-project  css  index.html  js
+irfan@irfan-Inspiron-5558:~/udacity_git_course/new-git-project$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   course-git-blog-project
+	new file:   css/app.css
+	new file:   index.html
+	new file:   js/app.js
 

@@ -175,3 +175,8 @@ Let's do a quick review of what's going on and what we're about to do:
 So the first step to getting any files committed to the repository is to add them from the Working Directory to the Staging Index. 
 We will be using the git add command to move all three of these files to the Staging Index.
 
+Staging Files
+Alrighty, it's go time! Run the following command on the Terminal which uses git add to add index.html to the Staging Index:
+			$ git add index.html
+Note - we are only adding the index.html file. We'll add the CSS and JavaScript files in just a second.
+

@@ -1,7 +1,0 @@
-Mac/Linux Setup
-Installing Git
-Git is actually installed on MacOS, but we'll be reinstalling it so that we'll have the newest version:
-go to https://git-scm.com/downloads
-download the software for Mac
-install Git choosing all of the default options
-Once everything is installed, you should be able to run git on the command line. If it displays the usage information, then you're good to go!

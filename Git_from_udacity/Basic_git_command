@@ -206,4 +206,19 @@ Ok, let's do it!
 To make a commit in Git you use the git commit command, but don't run it just yet. Running this command will open the code editor that you configured
 	$ git config --global core.editor <your-editor's-config-went-here>
 
+Git Commit Recap : The git commit command takes files from the Staging Index and saves them in the repository.
+
+$ git commit
+This command:
+
+will open the code editor that is specified in your configuration
+(check out the Git configuration step from the first lesson to configure your editor)
+Inside the code editor:
+
+a commit message must be supplied
+lines that start with a # are comments and will not be recorded
+save the file after adding a commit message
+close the editor to make the commit
+Then, use git log to review the commit you just made!
+
 

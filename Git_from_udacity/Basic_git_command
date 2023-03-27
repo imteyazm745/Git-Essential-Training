@@ -221,4 +221,8 @@ save the file after adding a commit message
 close the editor to make the commit
 Then, use git log to review the commit you just made!
 
+Commit Messages
+Good Commit Messages
+Let's take a quick stroll down Stickler Lane and ask the question:
+
 

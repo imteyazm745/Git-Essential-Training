@@ -237,4 +237,7 @@ Do not:
 	e.g. "make the background color pink and increase the size of the sidebar"
 
 $ git diff : The git diff command can be used to see changes that have been made but haven't been committed, yet.
+To see git diff in action, we need some uncommitted changes! In index.html, let's reword the heading. 
+Change the heading from "Expedition" to "Adventure". Save the file and run git diff on the Terminal.
+
 

@@ -235,3 +235,6 @@ Do not:
 	do not use the word "and"
 	if you have to use "and", your commit message is probably doing too many changes - break the changes into separate commits
 	e.g. "make the background color pink and increase the size of the sidebar"
+
+$ git diff : The git diff command can be used to see changes that have been made but haven't been committed, yet.
+
